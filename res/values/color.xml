@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources>
+    
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7D00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#00B4FF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="sky_blue">#0099CC</color>
+    <color name = "custom_orange">#FF8800</color>
+    
+    <color name="sa_green">#14a804</color>
+    <color name="stacked_green">#118504</color>
+    <color name="accent_green">#97e08f</color>
+    
+    <!-- custom Color -->
+    <color name="green">#047742</color>
+    <color name="ash">#dfdfdf</color>
+    
+    <!-- Sliding Menu -->
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+     
+</resources>

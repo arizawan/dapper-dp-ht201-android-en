@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_prnt_dmo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img_logo"
+        android:layout_alignRight="@+id/img_logo"
+        android:layout_centerVertical="true"
+        android:text="Print Demo" />
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_prnt_dmo"
+        android:layout_alignRight="@+id/btn_prnt_dmo"
+        android:layout_below="@+id/btn_prnt_dmo"
+        android:layout_marginTop="21dp"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_setting"
+        android:layout_alignRight="@+id/btn_setting"
+        android:layout_below="@+id/btn_setting"
+        android:text="Exit" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/logoorng" />
+
+    <TextView
+        android:id="@+id/txt_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_prnt_dmo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="BT Demo for [DAPPER DP-HT201]"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</RelativeLayout>

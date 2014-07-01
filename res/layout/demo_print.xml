@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_demo_receipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTxtQr"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editTxtQr"
+        android:layout_marginTop="38dp"
+        android:text="Demo Receipt" />
+
+    <Button
+        android:id="@+id/btn_txt_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTxtPlain"
+        android:layout_alignRight="@+id/editTxtPlain"
+        android:layout_below="@+id/editTxtPlain"
+        android:layout_marginTop="45dp"
+        android:text="Text Print" />
+
+    <EditText
+        android:id="@+id/editTxtPlain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_qr_print"
+        android:layout_below="@+id/btn_qr_print"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Enter Plain Text" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_qr_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTxtQr"
+        android:layout_alignRight="@+id/editTxtQr"
+        android:layout_below="@+id/editTxtQr"
+        android:layout_marginTop="17dp"
+        android:text="QR Code Print" />
+
+    <EditText
+        android:id="@+id/editTxtQr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_demo_receipt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter Qr Code Text" />
+
+</RelativeLayout>
